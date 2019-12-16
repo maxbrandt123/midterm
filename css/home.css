@@ -1,0 +1,122 @@
+button {
+	box-shadow: 0px 0px 12px 1px #7DDB94;
+	background-color: Transparent;
+	border-radius:2px;
+	border:1px solid #fff;
+	cursor:pointer;
+	color:#fff;
+	font-family:Arial;
+	font-size:35px;
+	font-weight:bold;
+	padding:24px 70px;
+	text-decoration:none;
+	text-shadow:0px 2px 44px #4F22DA;
+	text-align: center;
+
+}
+.pages {
+    float:none;
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button:hover {
+	background-color:rgb(0, 184, 201);
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
+.btn-toolbar{
+margin-left: `0px;
+text-align: center;
+align-content: center;
+
+}
+
+.btn-group{
+text-align: center;
+align-content: center;
+margin: 10 auto;
+display: block;
+position.relative;
+display: inline-block;
+vertical-align: middle;
+
+}
+
+body {
+margin: 0;
+width: 100%;
+height: 100vh;
+font-family: "Exo", Futura;
+color: #fff;
+background: linear-gradient(-45deg, #ee7753, #e83c7e, #24a6d5, #23d6ab);
+background-size: 400% 400%;
+animation: gradientBG 15s ease infinite;
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h3 {
+	color: #fff;
+	font-weight: 100;
+}
+
+h5 {
+	color:#fff;
+	font-weight:300;
+}
+a,
+a:hover {
+	text-decoration: none;
+	color: #ddd;
+}
+.footer {
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   color: white;
+   text-align: center;
+   position:fixed;
+}
+.form-group {
+  position: relative;
+  padding-top: 1.5rem;
+}
+
+label {
+  position: absolute;
+  top: 0;
+  font-size: var(--font-size-small);
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 0.2s ease-out;
+}
+
+input:placeholder-shown + label {
+  opacity: 0;
+  transform: translateY(1rem);
+}
